@@ -1,7 +1,7 @@
-caso_teste = int(input("Digite o número de casos de teste: "))
+caso_teste = int(input())
 
 for _ in range(caso_teste):
-    diamante = input("Digite a sequência de diamantes: ")
+    diamante = input()
     
     pares_diamantes = 0
     diamantes_abertos = 0
@@ -13,7 +13,7 @@ for _ in range(caso_teste):
             pares_diamantes += 1
             diamantes_abertos -= 1
     
-    print(f"O número total de pares de diamantes é: {pares_diamantes}")
+    print(pares_diamantes)
 
 
 
